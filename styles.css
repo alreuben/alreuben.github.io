@@ -8,17 +8,19 @@ body {
 
 
 section {
-	width: 70%;
+	width: 100%%;
+	padding: 10px 10%;
+	display: flex;
 }
 
-
+/*NAV BAR*/
 nav {
-	background-color: #476F89;
+	background-color: #466D87;
 	margin: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%
+	padding: 10px 10%;
 	
 }
 
@@ -47,48 +49,66 @@ a:hover {
 }
 
 
-
-/*RESPONSIVE NAV BARS*/
+/*RESPONSIVE NAV BAR*/
 @media screen and (max-width: 1000px){
     .navLeft, .navRight {
-		width: 25%;
+		width: 20%;
         display: none;
 	 }
 	 
-	 
-.navResponsive {
- 	 display: inline-block;
-	 text-decoration: none;
-	 font-weight: bold;
-	 color: #63879E;
+	 .navResponsive {
+		display: inline-block;
+		text-decoration: none;
+		font-weight: bold;
+	 	color: #63879E;
 	  }   		 
-	
 	  
-.navResponsive a, {
-	text-decoration: none;
-	color: #63879E;
-		  }}
-
-/*RESPONSIVE NAV BARS*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header {
-	background-image: url("../../images/background.jpg");
+	  .navResponsive a {
+		text-decoration: none;
+		color: #63879E;
+		}
+		
+		a:hover {
+			color: #B8CFDE;
+		}
 }
+
+
+
+
+/*HEADER BAR*/
+header {
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-width: 100%;
+	background-height: 75%;
+	
+}
+ 
+ 
+.sectionHeader {
+	width: 100%%;
+	padding: 10px 10%;
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: column wrap;
+}
+ 
+ 
+ 
+h1 {
+	font-size: 100px;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -111,4 +131,63 @@ article {
 
 footer {
 	background-color: #476F89;
+	margin: 0;
+	display: flex;
+	/*justify-content: space-between;*/
+	padding: 10px 10%;
+	flex-direction: column;
 }
+
+
+.footerUpper  {
+	text-decoration: none;
+	color: #63879E;
+	display: flex;
+
+}
+.footerUpper a  {
+	text-decoration: none;
+	color: #63879E;
+}
+
+ 
+
+.footerLower {
+	text-decoration: none;
+	color: #63879E;
+	display: flex;
+	flex-direction: row ;
+
+}
+
+.footerLower a img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.footerLower a {
+	padding-right: 3rem;
+}
+
+ 
+.footerLower a img:hover {
+	filter: invert(100%);
+}
+
+/*RESPONSIVE FOOTER*/
+@media screen and (max-width: 1000px){
+    .footerLower {
+		width: 20%;
+        display: none;
+	 }
+	 
+  .footerUpper a {
+	text-decoration: none;
+	color: #63879E;
+	}
+	 
+	a:hover {
+		color: #B8CFDE;
+	}
+}
+/*RESPONSIVE FOOTER*/
