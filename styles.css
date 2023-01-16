@@ -80,9 +80,11 @@ a:hover {
 header {
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-width: 100%;
 	background-height: 75%;
+	display: flex;
+	justify-content: flex-end;
 	
 }
  
@@ -128,7 +130,7 @@ article {
 
 
 
-
+/*FOOTER*/
 footer {
 	background-color: #476F89;
 	margin: 0;
@@ -140,7 +142,7 @@ footer {
 
 
 .footerUpper  {
-	text-decoration: none;
+	/*text-decoration: none;*/
 	color: #63879E;
 	display: flex;
 
@@ -174,9 +176,13 @@ footer {
 	filter: invert(100%);
 }
 
+.footerResponsive {
+	display: none;
+}
+
 /*RESPONSIVE FOOTER*/
 @media screen and (max-width: 1000px){
-    .footerLower {
+    .footerUpper, .footerLower {
 		width: 20%;
         display: none;
 	 }
@@ -186,8 +192,18 @@ footer {
 	color: #63879E;
 	}
 	 
-	a:hover {
-		color: #B8CFDE;
+	 
+	.footerResponsive {
+		display: inline-block;
+	
 	}
+	
+	.footerResponsive a {
+		display: inline-block;
+		text-decoration: none;
+		color: #63879E;
 }
+
+     a:hover {
+		 color: #B8CFDE;
 /*RESPONSIVE FOOTER*/
