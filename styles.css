@@ -20,8 +20,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%;
-	
+	padding: 10px 10%;	
 }
 
 .navLogo {
@@ -85,7 +84,6 @@ header {
 	background-height: 75%;
 	display: flex;
 	justify-content: flex-end;
-	
 }
  
  
@@ -112,8 +110,7 @@ h1 {
 
 
 
-
-
+/*ABOUT ME SECTION*/
 
 main {
 	background-color: #B8CFDE;
@@ -122,10 +119,52 @@ main {
 
 
 
+
+
+
+/*MY PORTFOLIO SECTION*/
 article {
-	background-color: #7FA0B3;
+	/*background-color: #7FA0B3;*/
+	background-color: #FFFFFF;
+}	
+
+.articleHeader {
+	display: flex;
+	justify-content: center;
+			
+	
 }
 
+article section /*.articleSection*/ {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 200px auto auto;
+	
+}
+
+
+article section div img {
+    height: 200px;
+          position: relative;
+          overflow: hidden;
+}
+
+
+
+.articleLeft, .articleMiddle, .articleRight {
+	color: #466D87;
+}
+
+.articleSection div h4 {
+/*	text-align: center;*/
+	margin: 0;
+	color: #000000;
+}
+
+
+.articleMiddle {
+	padding: 0 10px;
+}
 
 
 
