@@ -56,16 +56,16 @@ a:hover {
 	 }
 	 
 	 .navResponsive {
-		display: inline-block;
-		text-decoration: none;
-		font-weight: bold;
-	 	color: #63879E;
-	  }   		 
+		 display: inline-block;
+		 text-decoration: none;
+		 font-weight: bold;
+		 color: #63879E;
+	 }   		 
 	  
 	  .navResponsive a {
-		text-decoration: none;
-		color: #63879E;
-		}
+		  text-decoration: none;
+		  color: #63879E;
+	  }
 		
 		a:hover {
 			color: #B8CFDE;
@@ -79,9 +79,7 @@ a:hover {
 header {
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-width: 100%;
-	background-height: 75%;
+	background-size: 100% 100%;
 	display: flex;
 	justify-content: flex-end;
 }
@@ -174,31 +172,18 @@ footer {
 	background-color: #476F89;
 	margin: 0;
 	display: flex;
-	/*justify-content: space-between;*/
 	padding: 10px 10%;
 	flex-direction: column;
 }
 
 
 .footerUpper  {
-	/*text-decoration: none;*/
-	color: #63879E;
-	display: flex;
-
-}
-.footerUpper a  {
-	text-decoration: none;
 	color: #63879E;
 }
-
- 
 
 .footerLower {
-	text-decoration: none;
-	color: #63879E;
 	display: flex;
-	flex-direction: row ;
-
+	flex-direction: row;
 }
 
 .footerLower a img {
@@ -221,28 +206,29 @@ footer {
 
 /*RESPONSIVE FOOTER*/
 @media screen and (max-width: 1000px){
-    .footerUpper, .footerLower {
+   .footerUpper, .footerLower {
 		width: 20%;
-        display: none;
-	 }
+		display: none;
+		}
 	 
-  .footerUpper a {
-	text-decoration: none;
-	color: #63879E;
-	}
+	 .footerUpper a {
+		text-decoration: none;
+		color: #63879E;
+		}
 	 
-	 
+	
 	.footerResponsive {
 		display: inline-block;
-	
-	}
+		}
 	
 	.footerResponsive a {
 		display: inline-block;
 		text-decoration: none;
 		color: #63879E;
-}
+		}
 
      a:hover {
-		 color: #B8CFDE;
+		color: #B8CFDE;
+		}
+}
 /*RESPONSIVE FOOTER*/
