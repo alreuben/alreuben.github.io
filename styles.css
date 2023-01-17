@@ -8,7 +8,6 @@ body {
 
 
 section {
-	width: 100%%;
 	padding: 10px 10%;
 	display: flex;
 }
@@ -16,7 +15,6 @@ section {
 /*NAV BAR*/
 nav {
 	background-color: #466D87;
-	margin: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -86,10 +84,7 @@ header {
  
  
 .sectionHeader {
-	width: 100%%;
 	padding: 10px 10%;
-	display: flex;
-	justify-content: flex-end;
 	flex-flow: column wrap;
 }
  
@@ -170,7 +165,6 @@ article section div img {
 /*FOOTER*/
 footer {
 	background-color: #476F89;
-	margin: 0;
 	display: flex;
 	padding: 10px 10%;
 	flex-direction: column;
