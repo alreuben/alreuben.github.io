@@ -4,6 +4,9 @@ box-sizing: border-box;
 
 body {
 	font-family: "Koulen", sans-serif;
+	background-image: url("images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 60%;
 }
 
 
@@ -15,10 +18,13 @@ section {
 /*NAV BAR*/
 nav {
 	background-color: #466D87;
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 10%;	
+	width: 100%;
+	
 }
 
 .navLogo {
@@ -75,11 +81,11 @@ a:hover {
 
 /*HEADER BAR*/
 header {
-	background-image: url("images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	/*background-image: url("images/background.jpg");*/
+	/*background-repeat: no-repeat;
+	background-size: 100% 100%;*/
 	display: flex;
-	justify-content: flex-end;
+	/*justify-content: flex-end;*/
 }
  
  
@@ -89,17 +95,28 @@ header {
 }
  
  
- 
-h1 {
+.sectionHeader h1 {
 	font-size: 100px;
-	color: #FFFFFF;
+	color: #FFFFFF;	
 }
 
+#headerUpper {
+	margin-bottom: 0;
+	margin-top: 200px;
+	
+}
+
+#headerLower {
+	margin-top: 0px;
+}
+
+.sectionHeader h2 {
+	font-size: 50px;
+	color: #FFFFFF;
+	margin-top: 0px;
 
 
-
-
-
+}
 
 
 
