@@ -138,7 +138,7 @@ main {
 
 .mainInfo {
 	column-gap: 20px;
-		border-right: 5px solid #F69415;
+	border-right: 5px solid #F69415;   
 	}
 
 .mainImage img {
@@ -147,7 +147,19 @@ main {
 	}
 
 
+/*RESPONSIVE MAIN*/
+	@media screen and (max-width: 1000px){
+	   .mainImage {
+			width: 20%;
+			display: none;
+			}
+			
+		.mainSection {
+			display: flex;	
+			}
+}
 
+/*RESPONSIVE MAIN*/
 
 
 
@@ -170,7 +182,8 @@ article {
 article section /*.articleSection*/ {
 	display: grid;
 	grid-auto-flow: column;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: repeat(3, auto auto auto);
+	
 }
 
 
@@ -210,6 +223,24 @@ article section div img {
 	 padding-left: 20px;
  }
 
+
+
+ /*RESPONSIVE ARTICLE*/
+ 	@media screen and (max-width: 1000px){
+ 	   .articleHeader {
+ 			width: 20%;
+ 			display: inline-block;
+ 			}	
+			/*.articleLeft, .articleMiddle, .articleRight {
+	 			display: flex;
+				flex-wrap: wrap;
+	 			}*/
+ }
+
+ /*RESPONSIVE ARTICLE*/
+
+
+
 /*FOOTER*/
 footer {
 	background-color: #476F89;
@@ -219,7 +250,7 @@ footer {
 }
 
 
-.footerUpper  {
+.footerUpper, .footerCopyright p   {
 	color: #63879E;
 }
 
@@ -248,7 +279,7 @@ footer {
 
 /*RESPONSIVE FOOTER*/
 @media screen and (max-width: 1000px){
-   .footerUpper, .footerLower {
+   .footerUpper, .footerLower, .footerCopyright {
 		width: 20%;
 		display: none;
 		}
@@ -258,12 +289,11 @@ footer {
 		color: #63879E;
 		}
 	 
-	
 	.footerResponsive {
 		display: inline-block;
 		}
 	
-	.footerResponsive a {
+	.footerResponsive a, .footerResponsive p {
 		display: inline-block;
 		text-decoration: none;
 		color: #63879E;
