@@ -54,7 +54,6 @@ a:hover {
 /*RESPONSIVE NAV BAR*/
 @media screen and (max-width: 1000px){
     .navLeft, .navRight {
-		width: 20%;
         display: none;
 	 }
 	 
@@ -126,18 +125,22 @@ article#aboutMe {
 
 .aboutMeSection {
 	display: grid;
-	column-gap: 20px;
+	column-gap: 50px;
 	grid-auto-flow: column;
 	grid-template-columns: 50% 50%;
 	align-items: center;
 	padding-bottom: 0;
-	/*border-left: 5px solid #F69415;*/
+/*	border-right: 5px solid #F69415;*/
 	/*border-image: linear-gradient(#B6CEDB, #F69415, #B6CEDB);*/
 }
 
+
+
 .articleInfo {
-	column-gap: 20px;
-	border-right: 5px solid #F69415;   
+	border-right: 5px solid #F69415; 
+	border-image: linear-gradient(#B6CEDB, #F69415, #B6CEDB);
+	padding-right: 10px; 
+	
 	}
 
 .articleImage img {
@@ -150,10 +153,9 @@ article#aboutMe {
 
 
 
-/*RESPONSIVE MAIN*/
+/*RESPONSIVE ABOUT ME*/
 	@media screen and (max-width: 1000px){
 	   .articleImage {
-			width: 20%;
 			display: none;
 			}
 			
@@ -162,7 +164,7 @@ article#aboutMe {
 			}
 }
 
-/*RESPONSIVE MAIN*/
+/*RESPONSIVE ABOUT ME*/
 
 
 
@@ -182,9 +184,8 @@ main#portfolio {
 }
 
 
-main#portfolio .portfolioSection /*div*/{
+main#portfolio .portfolioSection {
 	display: flex;
-/*    justify-content: center;*/
     flex-wrap: wrap;
     align-items: stretch;
     padding: 20px;
@@ -207,7 +208,7 @@ main#portfolio .portfolioSection /*div*/{
 	    margin-right: auto;
 	    object-fit: cover;
 	    width: 100%;
-	    height: 250px;
+	    height: 310px;
 		/*padding-bottom: 20px;*/
 }
 
@@ -223,7 +224,6 @@ main#portfolio .portfolioSection /*div*/{
     text-decoration: underline solid #F69415 5px;
 	padding: 30px 0;
 }
-
 
 .portfolioText p {
 	margin: 0;
@@ -243,7 +243,6 @@ footer {
 	padding: 10px 10%;
 	flex-direction: column;
 }
-
 
 .footerUpper, .footerCopyright p   {
 	color: #63879E;
@@ -275,7 +274,6 @@ footer {
 /*RESPONSIVE FOOTER*/
 @media screen and (max-width: 1000px){
    .footerUpper, .footerLower, .footerCopyright {
-		width: 20%;
 		display: none;
 		}
 	 
