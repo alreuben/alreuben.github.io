@@ -41,52 +41,55 @@
 	
 
 	
-	<!-- MAIN -- ABOUT SECTION -->	
-	<main id="aboutMe">
-		<section class="mainSection">
-			<div calss="mainInfo">
+	<!-- ARTCLE -- ABOUT SECTION -->	
+	<article id="aboutMe">
+		<section class="aboutMeSection">
+			<div calss="articleInfo">
 				<h2>ABOUT ME</h2>
 				<p>I am currently enrolled on the Full-Stack Developer course at iO Academy and will be graduating in April 2023.</p>
 				<p>So far, I have learned how to use HTML and CSS for front-end development.</p>
 				<p>Prior to attending the course, I went to University to study Information Technology Management and Business. I also worked in an IT company for 3 years, where my role was a Junior Product Consultant.</p>
 			</div>
-			<div class="mainImage">
+			<div class="articleImage">
 			<img src="images/avatar.png" alt="avatar">
 			</div>
 		</section>
 	</main>
-	<!-- /HEADER -->
 	
 	
-	
-	<!-- ARTICLE -- PORTFOLIO WORK SECTION-->
-	<article id="portfolio">
-		<section class="articleHeader">
-			<h2 class="articleLogo">MY PORTFOLIO</h2>
-		</section>
-		<section class="articleSection">
-			<div class="articleLeft">
-				<img src="images/img1.png" alt="screenshot of hello word website">
-				<h4>HELLO WORLD</h4>
-				<p>A copy build of the Hello Word demo site which focuses on using flex, and all its special features.</p>
-			</div>
-			
-			<div class="articleMiddle">
-				<img src="images/img2.png" alt="screenshot of hello word website">
-				<h4>PILOT SHOP</h4>
-				<p>A copy build of the Pilot Shop website that uses multiple responsive navigation bars.</p>
-			</div>
-			
-			<div class="articleRight">
-				<img src="images/img3.png" alt="screenshot of hello word website">
-				<h4>LOREM IPSUM</h4>
-			<p>parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
-			</div>
-		</section>
-	</article>
-	<!-- /ARTICLE -->
 
-
+	<!-- MAIN -- PORTFOLIO SECTION -->	
+	<main id="portfolio">
+		<section class="portfolioHeader">
+			<h2 class="portfolioLogo">MY PORTFOLIO</h2>
+		</section>
+		
+		<section class="portfolioSection">
+			<article class="portfolioContainer">
+					<img src="images/img1.png" alt="screenshot of hello word website" />
+					<div class="portfolioText">
+						<h4>HELLO WORLD</h4>
+						<p>A copy build of the Hello Word demo site which focuses on using flex, and all its special features.</p>
+					</div>
+				</article>
+				
+				<article class="portfolioContainer">
+					<img src="images/img2.png" alt="screenshot of pilot shop website" />
+					<div class="portfolioText">
+						<h4>PILOT SHOP</h4>
+						<p>A copy build of the Pilot Shop website that uses multiple responsive navigation bars.</p>
+					</div>
+				</article>
+				
+				<article class="portfolioContainer">
+					<img src="images/img3.png" alt="" />
+					<div class="portfolioText">
+						<h4>LOREM IPSUM</h4>
+						<p>parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+					</div>
+				</article>
+		</section>
+	</main>
 
 	<!-- FOOTER -- CONTACT SECTION -->
 	<footer id="contact">
@@ -94,8 +97,9 @@
 			<h3 class="footerLogo">CONTACT ME</h3>
 		</div>
 		<div class="footerLower">
-			<a href="https://github.com/alreuben" target="_blank"><img src="images/github.png" alt="gitgub link"></a>
-			<a href="https://www.linkedin.com/in/ayannah-reuben-552335142" target="_blank"><img src="images/linkedin.png" alt="linkedn link"></a>
+			<a href="https://github.com/alreuben" target="_blank"><img src="images/github.png" alt="gitgub link" /></a>
+			<a href="https://www.linkedin.com/in/ayannah-reuben-552335142" target="_blank"><img src="images/linkedin.png" alt="linkedn link" /></a>
+			<a href="mailto:ayannahreuben@gmail.com" target="_blank"><img src="images/email.png" alt="email link" /></a>
 		</div>
 		
 		<div class="footerCopyright">
@@ -108,7 +112,5 @@
 		</div>
 			</footer>	
 	<!-- /FOOTER -->
-	
-	
 </body>
 </html>
