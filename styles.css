@@ -8,9 +8,6 @@ html, body {
 
 body {
 	font-family: "Koulen", sans-serif;
-/*	background-image: url("images/background.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 60%;*/
 	}
 
 section {
@@ -57,7 +54,7 @@ a:hover {
 	}
 	
 .navResponsive {
-	display: inline-block;
+	display: block;
 	text-decoration: none;
 	font-weight: bold;
 	color: #63879E;
@@ -78,11 +75,9 @@ header {
 	background-image: url("images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	display: flex;
 	}
  
 .sectionHeader {
-	padding: 10px 10%;
 	flex-flow: column wrap;
 	}
  
@@ -91,12 +86,12 @@ header {
 	color: #FFFFFF;	
 	}
 
-#headerUpper {
+.headerUpper {
 	margin-bottom: 0;
 	margin-top: 200px;
 	}
 
-#headerLower {
+.headerLower {
 	margin-top: 0px;
 	}
 
@@ -132,7 +127,6 @@ article#aboutMe {
 	/*border-image: linear-gradient(#B6CEDB, #F69415, #B6CEDB);*/
 	padding-right: 10px; 
 	text-align: justify;
-	/*text-justify: inter-word;*/
 	}
 
 figure {
@@ -179,12 +173,10 @@ main#portfolio .portfolioSection {
 	}
 	
 .portfolioContainer {
-    /*width: 30%;*/
     background-color: #FFFFFF;
-	/*overflow: hidden;*/
-	/*margin: 10px;*/
     min-height: 350px;
-    min-width: 0px;
+    /*max-width: 30%;*/
+	min-width: 0px;
 	padding: 0 40px;
 	}	
 		
