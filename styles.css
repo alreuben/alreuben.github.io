@@ -72,7 +72,7 @@ a:hover {
 	color: #B8CFDE;
 	}
 }
-
+/* -- /RESPONSIVE NAV BAR*/
 /*HEADER BAR*/
 header {
 	background-image: url("images/background.jpg");
@@ -112,7 +112,7 @@ header {
 		font-size: 4.5rem;
 		}
 }
-
+/* -- /RESPONSIVE HEADER*/
 /*ABOUT ME SECTION*/
 article#aboutMe {
 	background-color: #B6CEDB;
@@ -154,7 +154,7 @@ figure {
 		display: flex;	
 		}
 }
-
+/* -- /RESPONSIVE ABOUT ME*/
 /*MY PORTFOLIO SECTION*/
 main#portfolio {
 	background-color: #FFFFFF;
@@ -220,7 +220,7 @@ main#portfolio .portfolioSection {
 		max-width: 70%;
 		}
 }
-
+/* -- /RESPONSIVE PORTFOLIO*/
 /*FOOTER*/
 footer {
 	background-color: #476F89;
