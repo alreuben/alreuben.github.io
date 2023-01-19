@@ -150,20 +150,22 @@ main#portfolio {
 	padding: 20px;
 	box-shadow: inset 0 0 10px #AAAAAA;
 	}	
+	
+.portfolioHeader {
+	margin-top: 50px;
+	}
 
 .portfolioHeader, .portfolioSection {
 	display: flex;
 	justify-content: center;
 	}
-
-
+	
 main#portfolio .portfolioSection {
 	display: flex;
     flex-wrap: wrap;
     align-items: stretch;
     padding: 20px;
 	}
-	
 	
 .portfolioContainer {
     /*width: 30%;*/
@@ -227,7 +229,6 @@ footer {
 	padding-right: 3rem;
 	}
 
- 
 .footerLower a img:hover {
 	filter: invert(100%);
 	}
