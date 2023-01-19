@@ -2,6 +2,10 @@
 	box-sizing: border-box;
 	}
 
+html, body {
+	overflow-x: hidden;
+	}
+
 body {
 	font-family: "Koulen", sans-serif;
 /*	background-image: url("images/background.jpg");
@@ -102,6 +106,13 @@ header {
 	margin-top: 0px;
 	}
 
+/*RESPONSIVE HEADER*/
+@media screen and (max-width: 1000px){
+	.sectionHeader h1, .sectionHeader h2 {
+		font-size: 4.5rem;
+		}
+}
+
 /*ABOUT ME SECTION*/
 article#aboutMe {
 	background-color: #B6CEDB;
@@ -188,7 +199,7 @@ main#portfolio .portfolioSection {
 
 .portfolioText {
     width: 350px;
-    height: 250px;  
+    height: 250px; 
 	}
 
 .portfolioText h4 {
@@ -202,6 +213,13 @@ main#portfolio .portfolioSection {
 	margin: 0;
 	color: #466D87;
 	}
+
+/*RESPONSIVE PORTFOLIO*/
+@media screen and (max-width: 1000px){
+	.portfolioText p {
+		max-width: 70%;
+		}
+}
 
 /*FOOTER*/
 footer {
