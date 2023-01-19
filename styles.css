@@ -121,7 +121,7 @@ article#aboutMe {
 	/*border-image: linear-gradient(#B6CEDB, #F69415, #B6CEDB);*/
 	padding-right: 10px; 
 	text-align: justify;
-	text-justify: inter-word;
+	/*text-justify: inter-word;*/
 	}
 
 figure {
