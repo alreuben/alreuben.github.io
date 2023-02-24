@@ -22,7 +22,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%;	
+	padding: 10px 10%;
 	width: 100%;
 	}
 
@@ -205,6 +205,18 @@ main#portfolio .portfolioSection {
 	margin: 0;
 	color: #466D87;
 	}
+	
+	
+.portfolioText a {
+	text-decoration: underline solid #F69415 5px;
+	color: #000000;
+	text-transform: uppercase;
+	
+	}
+
+.portfolioLinks {
+	padding-top: 10px;
+}
 
 /*RESPONSIVE PORTFOLIO*/
 @media screen and (max-width: 1000px){
