@@ -1,111 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Ayannah Reuben</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="normalize.css"/>
-		<link rel="stylesheet" type="text/css" href="styles.css"/>	
-	</head>
-	<body>
-		<!-- NAV BAR LINKS AROUD PAGE-->
-		<nav>
-			<div class="navLeft">
-				<h3><a href="#" class="navLogo">AYANNAH REUBEN</a></h3>
-			</div>
-			<div class="navRight">
-				<a href="#aboutMe">ABOUT</a>
-				<a href="#portfolio">PORTFOLIO</a>
-				<a href="#contact">CONTACT</a>
-			</div>
-			<div class="navResponsive">
-				<h3><a href="#">MENU ⌁</a></h3>
-			</div>
-		</nav>	
-		<!-- /NAV BAR -->
-	
-		<!-- HEADER -- HERO IMAGE AND INTRO SECTION -->		
-		<header>
-			<section class="sectionHeader">
-				<h1 class="headerUpper">Hello,</h1>
-				<h1 class="headerLower">I'm Ayannah</h1>
-				<h2>I am a full-stack developer</h2>
-			</section>
-		</header>
-		<!-- /HEADER -->
-	
-		<!-- ARTCLE -- ABOUT SECTION -->	
-		<article id="aboutMe">
-			<section class="aboutMeSection">
-				<div class="articleInfo">
-					<h2>ABOUT ME</h2>
-					<p>I am currently enrolled on the Full-Stack Developer course at iO Academy and will be graduating in April 2023.</p>
-					<p>So far, I have learned how to use HTML and CSS for front-end development.</p>
-					<p>Prior to attending the course, I went to University to study Information Technology Management and Business. I also worked in an IT company for 3 years, where my role was a Junior Product Consultant.</p>
-				</div>
-				<figure class="articleImage">
-					<img src="images/avatar.png" alt="avatar">
-				</figure>
-			</section>
-		</article>
-		<!-- /ARTCLE -- ABOUT SECTION -->
-	
-		<!-- MAIN -- PORTFOLIO SECTION -->	
-		<main id="portfolio">
-			<section class="portfolioHeader">
-				<h2 class="portfolioLogo">MY PORTFOLIO</h2>
-			</section>
-		
-			<section class="portfolioSection">
-				<article class="portfolioContainer">
-					<img src="images/img1.png" alt="screenshot of hello word website"/>
-					<div class="portfolioText">
-						<h4>COLLECTION APP</h4>
-						<p>A PHP collection of games that lets users add their favourite game to an SQL database</p>
-						<p class="portfolioLinks"><a href="http://localhost:1234/W5/alr-collection/index.php" target="_blank">github code</a>
-						<p class="portfolioLinks"><a href="http://localhost:1234/W5/alr-collection/index.php" target="_blank">Live project</a>
-					</div>
-				</article>
-				
-				<article class="portfolioContainer">
-					<img src="images/map.png" alt="screenshot of pilot shop website"/>
-					<div class="portfolioText">
-						<h4>MAP COUNTY GAME</h4>
-						<p>A copy build of the Pilot Shop website that uses multiple responsive navigation bars.</p>
-						<p class="portfolioLinks"><a href="#" target="_blank">github code</a>
-						<p class="portfolioLinks"><a href="https://23jan-county-guess.dev.io-academy.uk/" target="_blank">Live project</a>
-					</div>
-				</article>
-				
-				<article class="portfolioContainer">
-					<img src="images/img3.png" alt="final fantasy website" />
-					<div class="portfolioText">
-						<h4>LOREM IPSUM</h4>
-						<p>parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
-					</div>
-				</article>
-			</section>
-		</main>
-		<!-- /MAIN -- PORTFOLIO SECTION -->
+<head>
+	<meta charset="UTF-8">
+	<title>Ayannah Reuben</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!--  <link rel="stylesheet" type="text/css" href="styles.css"/>-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles2.css" />
+</head>
+<body class="container-fluid">
 
-		<!-- FOOTER -- CONTACT SECTION -->
-		<footer id="contact">
-			<div class="footerUpper">
-				<h3>CONTACT ME</h3>
+
+<nav class="navbar fixed-top bg-light px-5 ">
+	<a class="navbar-brand" href="#page-top"><img class="nav-logo d-inline-block align-text-top" src="images/iO_Avatar3.png" alt="io badge" width="30" height="24" /></a>
+	<a class="nav-link" href="#contact">CONTACT ME</a>
+	<a class="nav-link" href="#portfolio">PORTFOLIO</a>
+</nav>
+
+<header>
+	<section id="page-top" class="sectionHeader">
+		<h1 class="pt-5 text-center">Ayannah Reuben</h1>
+		<h2 class="pb-3 text-center">full-stack developer</h2>
+
+		<div class="icons col-12 d-flex justify-content-center pb-5">
+			<!--      <img class="icons px-3" src="images/html-5.png" alt="html logo"/>-->
+			<!--      <img class="icons px-3" src="images/css-3.png" alt="css logo"/>-->
+			<img class="icons px-3" src="images/php.png" alt="php logo"/>
+			<img class="icons px-3" src="images/js.png" alt="js logo"/>
+			<img class="icons px-3" src="images/react.png" alt="react logo"/>
+			<img class="icons px-3" src="images/node.png" alt="node logo"/>
+		</div>
+	</section>
+</header>
+
+
+<!-- MAIN -- PORTFOLIO SECTION -->
+<main id="portfolio">
+	<h1 class="p-3 text-center">PORTFOLIO</h1>
+	<section class="row">
+		<div class="card-group">
+
+			<div class=" col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/todoapi.png" class="card-img-top rounded" alt='screenshot of project management API'>
+					<div class="card-body">
+						<h4 class="card-title">TODO LIST API</h4>
+						<p class="card-text">Using a populated MongoDB database, I have created a todo list Node API that uses Express. The API can handle GET, POST, PUT and DELETE requests from the user and returns status codes whilst relying on validation.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/alreuben/todoListApi" class="card-link">Github code</a>
+					</div>
+				</article>
 			</div>
-			<div class="footerLower">
-				<a href="https://github.com/alreuben" target="_blank"><img src="images/github.png" alt="gitgub link"/></a>
-				<a href="https://www.linkedin.com/in/ayannah-reuben-552335142" target="_blank"><img src="images/linkedin.png" alt="linkedn link"/></a>
-				<a href="mailto:ayannahreuben@gmail.com" target="_blank"><img src="images/email.png" alt="email link"/></a>
+
+			<div class=" col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/legacy2.png" class="card-img-top rounded" alt='screenshot of project management API'>
+					<div class="card-body">
+						<h4 class="card-title">ACADEMY PORTAL</h4>
+						<p class="card-text">Working on a legacy database, we were tasked with editing the Academy Portal and bug fixing. I worked on creating checkbox event listeners which made form inputs appear and the error handling if inputs did not meet validation. This project was built using JavaScript.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/iO-Academy/AcademyPortal" class="card-link">Github code</a>
+						<a href="https://portal.dev.io-academy.uk/" class="card-link">Live project</a>
+					</div>
+				</article>
 			</div>
-			<div class="footerCopyright">
-				<p>© Copyright Ayannah Reuben 2023</p>
+
+			<div class=" col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/api2.png" class="card-img-top rounded" alt='screenshot of project management API'>
+					<div class="card-body">
+						<h4 class="card-title">PROJECT MANAGEMENT API</h4>
+						<p class="card-text">With a pre-existing front-end, we created a backend API that supported GET requests. Using PHP Object Oriented Programming and SQL. I worked on error handling and retrieving the SQL database data and turning it into JSON data.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/iO-Academy/23-jan-projectManagementApi" class="card-link">Github code</a>
+					</div>
+				</article>
 			</div>
-			<div class="footerResponsive">
-				<h3><a href="#">CLICK HERE TO CONTACT ME ⌁</a></h3>
-				<p>© Copyright Ayannah Reuben 2023</p>
+
+			<div class="col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/reactfood.png" class="card-img-top rounded" alt='screenshot of food delivery app'>
+					<div class="card-body">
+						<h5 class="card-title">FOOD DELIVERY APP</h5>
+						<p class="card-text">A React Food delivery app that fetches data from a pre-existing API. The app allows you to choose from a selection of Restaurants, and add items to your basket.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/iO-Academy/23-jan-foodDeliveryFE" class="card-link">Github code</a>
+						<a href="" class="card-link">Live project</a>
+					</div>
+				</article>
 			</div>
-		</footer>	
-		<!-- /FOOTER -->
-	</body>
+
+			<div class="col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/county.png" class="card-img-top rounded" alt='screenshot of map county game'>
+					<div class="card-body">
+						<h5 class="card-title">MAP COUNTY GAME</h5>
+						<p class="card-text">A JavaScript web application that lets users guess the English counties. If it exists, it will be added to list. When the timer runs out, you will have the opportunity to add your name to a leaderboard.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/iO-Academy/23-jan-countyGuess" target="_blank" class="card-link">Github code</a>
+						<a href="https://23jan-county-guess.dev.io-academy.uk/" target="_blank" class="card-link">Live project</a>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-12 col-md-6 col-lg-4 cardHolder">
+				<article class="card border-0 rounded">
+					<img src="images/games.png" class="card-img-top rounded" alt='screenshot of PHP collection app'>
+					<div class="card-body">
+						<h5 class="card-title">COLLECTION APP</h5>
+						<p class="card-text">An app that shows a collection of games and lets users add their favourite game to an SQL database using PHP. This app uses form validation and sanitsation and prevents unsafe or malicious SQL injection.</p>
+					</div>
+					<div class="card-footer bg-transparent border-0">
+						<a href="https://github.com/alreuben/alr-collection" class="card-link">Github code</a>
+						<a href="http://localhost:1234/W5/alr-collection/index.php" class="card-link">Live project</a>
+					</div>
+				</article>
+			</div>
+
+		</div>
+	</section>
+</main>
+
+
+
+
+
+<footer id="contact">
+	<h2 class="text-center pt-5 mt-5">CONTACT ME</h2>
+	<div class="d-flex justify-content-center">
+		<a href="https://github.com/alreuben" target="_blank"><img class="icons px-3" src="images/github.png" alt="gitgub link"/></a>
+		<a href="https://www.linkedin.com/in/ayannah-reuben-552335142" target="_blank"><img class="icons px-3" src="images/linkedin.png" alt="linkedn link"/></a>
+		<a href="mailto:ayannahreuben+jobs@gmail.com" target="_blank"><img class="icons px-3" src="images/email.png" alt="email link"/></a>
+	</div>
+	<p class="text-center mt-3">© Copyright Ayannah Reuben 2023</p>
+</footer>
+
+</body>
 </html>
